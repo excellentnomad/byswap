@@ -1,0 +1,22 @@
+.list-item {
+  & ul > li {
+
+    & > a {
+      display: inline-block;
+      color: $darkWhite;
+      text-decoration: none;
+      padding: 5px 0;
+
+      &:hover {
+        color: $mainWhite;
+        transition: color .4s ease-in-out;
+      }
+
+      & > i {
+        font-size: 20px;
+        width: 2rem;
+      }
+    }
+    @mixin clearfix;
+  }
+}
