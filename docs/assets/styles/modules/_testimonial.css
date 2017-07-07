@@ -1,0 +1,43 @@
+.testimonial {
+  background-color: $lightGreyBG;
+  padding-bottom: 40px;
+
+  &__title {
+    margin: 40px 0;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  &--more {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  &-item {
+    background: $mainWhite;
+    padding: 10px;
+    box-shadow: 0 0 4px rgba(0,19,25,0.1);
+    border-radius: 4px;
+    &__user {
+      position: relative;
+      margin-bottom: 20px;
+      padding-left: 58px;
+      padding-top: 10px;
+
+      & img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 48px !important;
+        height: 48px !important;
+        border-radius: 50%;
+      }
+      & h4 {
+        margin: 0;
+      }
+      & time {
+        color: #99a1a3;
+      }
+    }
+  }
+}

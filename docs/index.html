@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <title>By Swap</title>
+  <meta name="keywords" content="Travel planning, travel bundles, travel escapes, affordable travel">
+  <meta name="description" content="Your clarify. Buy and sell e-tickets the easy way.">
+
+  <link rel="stylesheet" href="temp/styles/styles.css">
+</head>
+<body>
+  <!-- <header class="site-header">
+
+    <div class="site-header__menubar" id="menuBtn">
+      <span><i class="fa fa-bars fa-2x"></i></span>
+    </div>
+    <nav class="site-header__nav">
+      <ul>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Sell Tickets</a></li>
+        <li><a href="#">How it works</a></li>
+      </ul>
+    </nav>
+  </header> -->
+
+  <header class="site-header">
+    <div class="topnav" id="menuNav">
+      <a href="#home">
+        <div class="site-header__logo">
+          <div class="site-header__logo__graphic">By Swap</div>
+        </div>
+      </a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="toggleFunction()">&#9776;</a>
+    </div>
+  </header>
+  <script>
+  function toggleFunction() {
+      var x = document.getElementById("menuNav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+  <div class="large-content">
+    <picture>
+      <source srcset="assets/images/hero--large.jpg 1920w, assets/images/hero--large-hi-dpi.jpg 3840w" media="(min-width: 1380px)">
+      <source srcset="assets/images/hero--medium.jpg 1380w, assets/images/hero--medium-hi-dpi.jpg 2760w" media="(min-width: 990px)">
+      <source srcset="assets/images/hero--small.jpg 990w, assets/images/hero--small-hi-dpi.jpg 1980w" media="(min-width: 640px)">
+      <source srcset="assets/images/hero--smaller.jpg 640w, assets/images/hero--smaller-hi-dpi.jpg 1280w" class="large-content__image">
+      <img src="assets/images/hero--large.jpg"  alt="Coastal view of ocean and mountains"/>
+    </picture>
+  </div>
+
+  <!-- International Events -->
+  <div class="announcement">
+    <div class="wrapper">
+      <h2 class="announcement__title">International Events</h2>
+      <div class="announcement__content">
+        <div class="owl-carousel owl-theme" id="owl-carousel-events">
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-1362586.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Balaton Sound 2017</h4>
+              <p>July 5 to 9</p>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/above-736879.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Balaton Sound 2017</h4>
+              <p>July 5 to 9</p>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-513641.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Balaton Sound 2017</h4>
+              <p>July 5 to 9</p>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-1362586.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Balaton Sound 2017</h4>
+              <p>July 5 to 9</p>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-1362586.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Balaton Sound 2017</h4>
+              <p>July 5 to 9</p>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/above-736879.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Balaton Sound 2017</h4>
+              <p>July 5 to 9</p>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-1362586.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Balaton Sound 2017</h4>
+              <p>July 5 to 9</p>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+            </div>
+            <img src="assets/images/aircraft-1362586.jpg" alt="">
+            <div class="announcement__item-info">
+              <h4>Balaton Sound 2017</h4>
+              <p>July 5 to 9</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Popular Locations -->
+  <div class="announcement">
+    <div class="wrapper">
+      <h2 class="announcement__title">Popular locations</h2>
+      <div class="announcement__content">
+        <div class="owl-carousel owl-theme" id="owl-carousel-locations">
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-1362586.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Ziggo Dome</h4>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/above-736879.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Sportpaleis</h4>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-513641.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>AccorHotels Arena - Bercy</h4>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-1362586.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Egg London</h4>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-1362586.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Budapest Park</h4>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/above-736879.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Lanxess Arena</h4>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-1362586.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>District 8</h4>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+            </div>
+            <img src="assets/images/aircraft-1362586.jpg" alt="">
+            <div class="announcement__item-info">
+              <h4>Razzmatazz</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Popular cities -->
+  <div class="announcement">
+    <div class="wrapper">
+      <h2 class="announcement__title">Popular cities</h2>
+      <div class="announcement__content">
+        <div class="owl-carousel owl-theme" id="owl-carousel-cities">
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-1362586.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Amsterdam</h4>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/above-736879.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Paris</h4>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-513641.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>London</h4>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-1362586.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Barcelona</h4>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-1362586.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Budapest</h4>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/above-736879.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Antwerp</h4>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-1362586.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Turin</h4>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/aircraft-1362586.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>Dublin</h4>
+            </div>
+          </a>
+          <a href="#" class="announcement__item">
+            <div class="announcement__item-img">
+              <img src="assets/images/above-736879.jpg" alt="">
+            </div>
+            <div class="announcement__item-info">
+              <h4>New York City</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="apps">
+    <div class="wrapper">
+      <div class="apps-container">
+        <h2>BySwap App</h2>
+        <a href="#" class="apps-item">
+          <h4 class="apps-item__title">TicketSwap iPhone App</h4>
+          <h5 class="apps-item__subtitle">Available on the App Store</h5>
+        </a>
+        <a href="#" class="apps-item">
+          <h4 class="apps-item__title">TicketSwap Android App</h4>
+          <h5 class="apps-item__subtitle">Available on the Google Play Store</h5>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonial">
+    <div class="wrapper">
+      <h3 class="testimonial__title">
+        More than <strong>1,300,000 happy users</strong> from over <strong>20 different countries!</strong>
+      </h3>
+      <div class="testimonial__content">
+        <div class="owl-carousel owl-theme" id="owl-carousel-testimonial">
+          <div class="item">
+            <div class="testimonial-item">
+              <div class="testimonial-item__user">
+                <img src="assets/images/users/user1.jpeg" alt="">
+                <h4>Bernard</h4>
+                <time datetime="June 20, 2017 21:51" title="June 20, 2017 21:51">12 days ago</time>
+              </div>
+              <p>I'm glad to see the byswap team to resolve the issue, and do so proactively.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-item">
+              <div class="testimonial-item__user">
+                <img src="assets/images/users/user1.jpeg" alt="">
+                <h4>Bernard</h4>
+                <time datetime="June 20, 2017 21:51" title="June 20, 2017 21:51">12 days ago</time>
+              </div>
+              <p>I'm glad to see the byswap team to resolve the issue, and do so proactively.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-item">
+              <div class="testimonial-item__user">
+                <img src="assets/images/users/user1.jpeg" alt="">
+                <h4>Bernard</h4>
+                <time datetime="June 20, 2017 21:51" title="June 20, 2017 21:51">12 days ago</time>
+              </div>
+              <p>I'm glad to see the byswap team to resolve the issue, and do so proactively.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-item">
+              <div class="testimonial-item__user">
+                <img src="assets/images/users/user1.jpeg" alt="">
+                <h4>Bernard</h4>
+                <time datetime="June 20, 2017 21:51" title="June 20, 2017 21:51">12 days ago</time>
+              </div>
+              <p>I'm glad to see the byswap team to resolve the issue, and do so proactively.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-item">
+              <div class="testimonial-item__user">
+                <img src="assets/images/users/user1.jpeg" alt="">
+                <h4>Bernard</h4>
+                <time datetime="June 20, 2017 21:51" title="June 20, 2017 21:51">12 days ago</time>
+              </div>
+              <p>I'm glad to see the byswap team to resolve the issue, and do so proactively.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-item">
+              <div class="testimonial-item__user">
+                <img src="assets/images/users/user1.jpeg" alt="">
+                <h4>Bernard</h4>
+                <time datetime="June 20, 2017 21:51" title="June 20, 2017 21:51">12 days ago</time>
+              </div>
+              <p>I'm glad to see the byswap team to resolve the issue, and do so proactively.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial--more">
+        <a href="#" class="btn btn--large">Show all testimonials</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <div class="site-footer__column list-item">
+        <h4 class="site-footer__column-title">Menu</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">How does it work?</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Partners</a></li>
+          <li><a href="#">Organizers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="site-footer__column list-item">
+        <h4 class="site-footer__column-title">Follow us</h4>
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook "  aria-hidden="true"></i>Facebook</a></li>
+          <li><a href="#"><i class="fa fa-twitter "  aria-hidden="true"></i>Twitter</a></li>
+          <li><a href="#"><i class="fa fa-instagram " aria-hidden="true"></i>Instagram</a></li>
+        </ul>
+        <h4 class="site-footer__column-title">Download</h4>
+        <ul>
+          <li><a href="#">
+            <i class="fa fa-apple " aria-hidden="true"></i>iOS app
+          </a></li>
+          <li><a href="#"><i class="fa fa-android " aria-hidden="true"></i>Android app</a></li>
+        </ul>
+      </div>
+      <div class="site-footer__column list-item">
+        <h4 class="site-footer__column-title">Need help?</h4>
+        <p class="site-footer__column-subtitle">We're available through e-mail, Twitter, Facebook, chat and phone.</p>
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-commenting " aria-hidden="true"></i>Go to our contact page</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-question-circle-o " aria-hidden="true"></i>
+              Or view the FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <div class="wrapper">
+        <div class="list-item">
+          <ul>
+            <li><a href="#">Conditions</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Responsible Disclosure</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/temp/scripts/App.js"></script>
+</body>
+</html>
