@@ -5,6 +5,7 @@ var Person = require('./modules/Person');
 const carouselSettings = {
   margin:20,
   stagePadding: 50,
+  lazyLoad:true,
   loop: true,
   responsive:{
      0:{
