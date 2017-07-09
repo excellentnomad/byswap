@@ -1,0 +1,7 @@
+.large-content {
+  
+  &__image {
+    display: block;
+    width: 100%;
+  }
+}
