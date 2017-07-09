@@ -74,6 +74,7 @@ var Person = __webpack_require__(4);
 const carouselSettings = {
   margin:20,
   stagePadding: 50,
+  lazyLoad:true,
   loop: true,
   responsive:{
      0:{
